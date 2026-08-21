@@ -1,0 +1,29 @@
+# --- draw.io backup/temp files ---
+*.bkp
+.$*
+*.drawio.bkp
+
+# --- Simulation outputs ---
+*.vvp
+*.vcd
+*.out
+sim.vvp
+speck_sim
+work/
+transcript
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+
+# --- Generated vector files (regenerate via speck_reference.py if needed) ---
+# Uncomment the line below if you don't want to track the vector file:
+# speck_vectors.txt
